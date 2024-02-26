@@ -19,7 +19,7 @@ a:hover {
   color: black;
 }
 
-ul {
+#nav_ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -28,7 +28,7 @@ ul {
   margin-top: 15px;
 }
 
-li {
+#nav_li {
    
   margin-top: 15px;
     padding: 5px;
@@ -59,4 +59,58 @@ h2:hover {
     margin-right: 15%;
 
     align-content: center;
+}
+
+#bios_ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#bios_li {
+    margin-top: 15px;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#names_ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+#name_li {
+    margin-left: 38px;
+    margin-right: 38px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#links_ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 25px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 15px;
+ text-align: left;
+}
+
+#link_li {
+    margin: 5px;
+    display: inline-block;
+
 }
