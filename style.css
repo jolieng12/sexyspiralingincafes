@@ -1,0 +1,62 @@
+
+
+body {
+     width: fit-content;
+  height: fit-content;
+  background-color: #E5DECE;
+  color: black;
+  font-family: Times, Times New Roman, serif;
+  align-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+  color: hotpink;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+li {
+   
+  margin-top: 15px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border-radius: 45px;
+    width: calc(75%/3)
+}
+
+
+h2 {
+    text-align: left;
+}
+
+#post {
+    text-align: left;
+}
+
+h2:hover {
+    color: hotpink;
+}
+
+.cont {
+    margin-left: 15%;
+    margin-right: 15%;
+
+    align-content: center;
+}
