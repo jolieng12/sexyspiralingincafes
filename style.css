@@ -1,15 +1,26 @@
 
 
+.pixelify-sans-<uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
 body {
      width: fit-content;
   height: fit-content;
   background-color: #E5DECE;
   color: black;
-  font-family: Times, Times New Roman, serif;
   align-content: center;
     text-align: center;
     margin: 0 auto;
+    font-weight: 100;
+    font-style: oblique;
+    font-family: sans-serif;
 }
+    
 
 a {
   color: hotpink;
@@ -26,6 +37,9 @@ a:hover {
   overflow: hidden;
   margin-bottom: 15px;
   margin-top: 15px;
+    font-family: "Pixelify Sans", sans-serif;
+  font-weight: 80;
+    font-style: normal;
 }
 
 #nav_li {
@@ -38,12 +52,16 @@ a:hover {
     display: inline-block;
     background-color: white;
     border-radius: 45px;
-    width: calc(75%/3)
+    width: calc(75%/3)  
+        
 }
 
 
 h2 {
     text-align: left;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 #post {
@@ -91,14 +109,22 @@ h2:hover {
 }
 
 #name_li {
-    margin-left: 38px;
-    margin-right: 38px;
+    margin-left: 35px;
+    margin-right: 35px;
     text-align: center;
     display: inline-block;
+    font-style: normal;
 
 }
 
 #links_ul {
+    font-weight: 200;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 23px;
+
+     width: fit-content;
+  height: fit-content;
+  background-color: #E5DECE;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
