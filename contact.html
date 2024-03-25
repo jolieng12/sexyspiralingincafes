@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=VT323&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sexyspiralingincafes</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+      <div class = "cont">
+      <div>
+        <ul id = "nav_ul">
+            <li id = "nav_li"><a href="index.html">ABOUT</a></li>
+            <li id = "nav_li">REVIEWS</li>
+            <li id = "nav_li"><a href="contact.html">CONTACT</a></li>
+          </ul>
+          </div>
+        <img src="/ssc logo.jpg" width = 300, height = 150>
+              
+
+          
+          <h2>contact us!</h2>
+    <div id = "post">
+    <p>feel free to send in recommendations or let us know if you are intersted in interviewing cafes with us! we'd love to build a community around sexyspiralingcafes ૮ ˶ᵔ ᵕ ᵔ˶ ა.</p>
+        
+    </div>
+          
+          <div> 
+              <form id="contact" method="POST" action="https://script.google.com/macros/s/AKfycbzoCM0WOhGHz2fqcZGb65PiwCySEpMsml6VvbrNNxcCWySYfR9sADC3LVXkBCXpibxZ4g/exec">
+                  <label for="name">your name:</label>
+                  <input type="text" id="name" name="name"><br>
+                  <label for="contact_info">your contact info:</label>
+                  <input type="text" id="contact_info" name="contact_info"><br>
+                  <label for="message">your message:</label><br>
+                  <textarea id="message" name="message"></textarea><br>
+                  <div id="button_pos">
+                  <input type="submit" value="submit" id="button">
+                  </div>
+              </form>
+          </div>
+          
+          <script type = "text/javascript" >
+    window.addEventListener("DOMContentLoaded", function() {
+        const yourForm = document.getElementById('contact');
+        yourForm.addEventListener("submit", function(e) {
+            e.preventDefault();
+            const data = new FormData(yourForm);
+            const action = e.target.action;
+            fetch(action, {
+                method: 'POST',
+                body: data,
+            }).then(() => {
+                window.location.replace("thankyou.html")
+            })
+        })
+    }); 
+</script>
+              
+      <div id = "links">
+          <ul id = "links_ul">
+              <li id = "link_li"><a href="https://www.instagram.com/sexyspiralingincafes/" target="_blank" rel="noopener noreferrer"><img src="ig_icon.webp"  width = 25/></a></li>
+            <li id = "link_li"><a href="https://docs.google.com/spreadsheets/d/1ePz-2LY7BMsOZBjs689cRykLE7Lgq_iCFNjozeVpncw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">🔗full review list</a></li>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>
