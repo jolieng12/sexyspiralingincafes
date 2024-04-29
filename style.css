@@ -195,3 +195,8 @@ textarea {
     color: hotpink;
     border-color: hotpink;
 }
+
+#data {
+    padding-top:50px;
+    padding-bottom:50px;
+}
